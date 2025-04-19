@@ -39,3 +39,6 @@ function PlaySound(soundPath)
     snd.src = soundPath;
     snd.play();
 }
+function crazybutton(){
+    crazymode? 0 : 1;
+}
