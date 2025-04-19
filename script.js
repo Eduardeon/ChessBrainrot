@@ -44,6 +44,6 @@ function crazybutton(){
         crazymode == false;
     }
     else{
-        crazymode == true
+        crazymode == true;
     }
 }
