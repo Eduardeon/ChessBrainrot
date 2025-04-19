@@ -1,0 +1,42 @@
+@font-face { font-family: NEWACADEMY; src: url('NEWACADEMY.TTF'); } 
+html{
+    background-color: rgb(56, 56, 56);
+}
+.Buttons{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    row-gap: .5rem;
+    column-gap: .5rem;
+    justify-content: center;
+    width: 22.5rem;
+    height: 22.5rem;
+    align-self: center;
+    justify-self: center;
+    padding: 6.5rem;
+}
+.Button{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: .5rem;
+    background-color: rgb(90, 98, 105);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.Button:hover {
+transform: scale(1.05);
+box-shadow: 0 0 20px rgba(255, 213, 0, 0.68);
+}
+.Button:last-of-type{
+    justify-self: center;
+    grid-column-start: span 3;
+}
+.glow{
+    align-self: center;
+    justify-self: center;
+    font-size: 5rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #60e5e7, 0 0 40px #60e5e7, 0 0 50px #60e5e7, 0 0 60px #60e5e7, 0 0 70px #60e5e7;
+    margin-bottom: -5.5rem;
+}
+span{
+    cursor: pointer;
+}
