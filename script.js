@@ -41,9 +41,9 @@ function PlaySound(soundPath)
 }
 function crazybutton(){
     if(crazymode = true){
-        crazymode = false;
+        crazymode == false;
     }
     else{
-        crazymode = true
+        crazymode == true
     }
 }
